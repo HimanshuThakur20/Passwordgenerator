@@ -39,7 +39,7 @@ submit.addEventListener('click',(e)=>{
         err => console.log("error copying text")
     );
 
-
+    document.querySelector("#generated").style.visibility = 'visible'
 })
 
 

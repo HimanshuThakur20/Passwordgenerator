@@ -35,7 +35,7 @@ body{
 .content span{
     font-family: monospace;
     font-size: larger;
-    
+    visibility: hidden;
 }
 
 label{
