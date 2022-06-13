@@ -40,6 +40,7 @@ submit.addEventListener('click',(e)=>{
     );
 
     document.querySelector("#generated").style.visibility = 'visible'
+    document.querySelector("#message").style.visibility = 'visible'
 })
 
 
