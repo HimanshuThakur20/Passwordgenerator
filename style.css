@@ -35,8 +35,8 @@ body{
 .content span{
     font-family: monospace;
     font-size: larger;
-    visibility: hidden;
 }
+
 
 label{
     font-size: larger;
@@ -77,10 +77,17 @@ button{
     margin-left: 31%;
 }
 
+button:hover{
+    color: grey;
+    border-color: grey;
+}
+
+
 .display{
     font-family:cursive;
     font-size: 1rem;
     font-weight: 400;
+
 }
 
 .display span{
@@ -88,7 +95,9 @@ button{
     border-width: 2px;
     border-radius: 3%;
     padding: 5px;
-    width:25%
+    width:25%;
+    visibility: hidden;
+
 }
 
 .display #generated:hover{
@@ -98,4 +107,17 @@ button{
 #message{
     border: none;
     margin-top:2%;
+    visibility: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-family: monospace;
+    margin: 4%;
+}
+
+a:hover{
+    color: grey;
 }
